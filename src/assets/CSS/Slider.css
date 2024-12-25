@@ -1,0 +1,29 @@
+.slick-prev:before,
+.slick-next:before {
+  color: black; /* Arrow color */
+}
+
+.slick-dots li button:before {
+  color: white; /* Dots color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #000; /* Active dot color */
+}
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: black;
+  color: blue !important;
+  -webkit-font-smoothing: antialiased;
+}

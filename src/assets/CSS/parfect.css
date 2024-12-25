@@ -1,0 +1,27 @@
+.parfect_part{
+    background-color: #FFFFFF;
+}
+
+.parfect_part .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.parfect_part .title h1{
+       margin-bottom: 30px;
+}
+.parfect_part .title p{
+        margin-bottom: 30px;
+}
+
+.main_class{
+        display: flex;
+        flex-direction: column;
+}
+
+ .div_img img{
+        width: 100%;
+        height: auto;
+ }
+
